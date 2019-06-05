@@ -23,7 +23,8 @@ public class Special_sum_of_array {
 
 	public static void main(String[] args) {
 		
-		
+		int arr[] = {9,9,9} ;
+		System.out.println(sum(arr));
 
 	}
 
