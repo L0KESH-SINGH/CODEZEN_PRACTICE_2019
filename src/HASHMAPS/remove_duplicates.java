@@ -22,12 +22,12 @@ public class remove_duplicates {
 			}
 		}
 		int ans[] = new int[count] ;
-		Iterator i = h.iterator();
-		int j =0 ; 
-		while (i.hasNext()) { 
-            ans[j] = i.next();
-            j++ ;
-        } 
+//		Iterator i = h.iterator();
+//		int j =0 ; 
+//		while (i.hasNext()) { 
+//            ans[j] = i.next();
+//            j++ ;
+//        } 
 		return ans ;	
 	}
 
