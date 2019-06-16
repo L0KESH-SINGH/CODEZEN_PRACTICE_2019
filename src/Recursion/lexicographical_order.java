@@ -12,7 +12,7 @@ public class lexicographical_order {
 			System.out.println(x);
 			count++ ;
 			
-			
+			System.out.print(" "+count );
 			lexicographicalOrder(n, x*10);
 			if(x!=n-1)
 			lexicographicalOrder(n, x+1);
