@@ -31,6 +31,9 @@ public class max_freq_number {
 	
 	public static void main(String[] args) {
 		
+		ArrayList<Integer> list = new ArrayList<>() ;
+		list.add(index, element);
+		
 		int arr[] = {2 ,12, 2, 11, 12, 2, 1, 2, 2, 11, 12, 2, 6  } ;
 		System.out.println(maxFrequencyNumber(arr));
 	}
